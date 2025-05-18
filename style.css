@@ -217,22 +217,16 @@ a:hover {
 }
 
 .portfolio .portfolio-wrap {
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
     background: #fff;
+    border-radius: 10px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
 .portfolio .portfolio-wrap img {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    transition: transform 0.3s ease;
-}
-
-.portfolio .portfolio-wrap:hover img {
-    transform: scale(1.1);
 }
 
 .portfolio .portfolio-info {
@@ -242,17 +236,13 @@ a:hover {
 .portfolio .portfolio-info h4 {
     font-size: 1.2em;
     color: #173b6c;
-    margin-bottom: 10px;
-}
-
-.portfolio .portfolio-info p {
-    color: #444;
-    font-size: 0.9em;
     margin-bottom: 5px;
 }
 
-.portfolio .portfolio-details {
-    margin-top: 10px;
+.portfolio .portfolio-info .category {
+    color: #18d26e;
+    font-size: 0.9em;
+    margin-bottom: 10px;
 }
 
 .portfolio .portfolio-details p {
